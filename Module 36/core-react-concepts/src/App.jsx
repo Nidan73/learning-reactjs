@@ -1,5 +1,5 @@
-import './App.css'
-
+import './App.css';
+import ToDo from './ToDo';
 function App() {
 
   return (
@@ -9,23 +9,25 @@ function App() {
       <Devloper name ="Nidan" age ="24" tech ="js"></Devloper>
       <Devloper name ="Nur" age ="26" tech ="HTML"></Devloper>
       <Devloper name ="Tanjim" age ="27" tech ="ECO"></Devloper>
+      <ToDo tech ="js" isDone = {true}></ToDo>
+      <ToDo tech ="css" isDone = {true}></ToDo>
+      <ToDo tech ="html" isDone = {false}></ToDo>
     </>
   )
 }
 
-function Devloper (props){
+function Devloper ({name , age = 0, tech}){
   return (
     <>
     <div className='dev'>
-    <p>Devloper Name : {props.name}</p>
-    <p>Devloper age : {props.age}</p>
-    <p>Devloper tech : {props.tech}</p>
+    <p>Devloper Name : {name}</p>
+    <p>Devloper age : {age}</p>
+    <p>Devloper tech : {tech}</p>
     </div>
     </>
   )
 }
 function Person(props){
-  const age = 17;
    const design = {
     color : 'red', 
     fontSize : '120px' 
