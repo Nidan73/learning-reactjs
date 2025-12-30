@@ -6,6 +6,21 @@ function App() {
     <>
     <h1>REACT CORE CONCEPTS</h1>
      <Person name = "Nidan"></Person>
+      <Devloper name ="Nidan" age ="24" tech ="js"></Devloper>
+      <Devloper name ="Nur" age ="26" tech ="HTML"></Devloper>
+      <Devloper name ="Tanjim" age ="27" tech ="ECO"></Devloper>
+    </>
+  )
+}
+
+function Devloper (props){
+  return (
+    <>
+    <div className='dev'>
+    <p>Devloper Name : {props.name}</p>
+    <p>Devloper age : {props.age}</p>
+    <p>Devloper tech : {props.tech}</p>
+    </div>
     </>
   )
 }

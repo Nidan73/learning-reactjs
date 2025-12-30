@@ -40,3 +40,10 @@
 .read-the-docs {
   color: #888;
 }
+
+.dev {
+  color : blue;
+  font-size: 30px ;
+  background-color: whitesmoke;
+  border-radius: 20px;
+}
