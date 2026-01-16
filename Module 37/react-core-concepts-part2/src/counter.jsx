@@ -3,6 +3,7 @@ import { useState } from 'react';
 export default function Counter(){
 
     const counterStyle = {
+        margin : '10px', 
         border : '2px solid red'
     }
     const [count , setCount]= useState(0);
