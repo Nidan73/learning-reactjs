@@ -66,3 +66,10 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+.card {
+  margin : '10px';
+  border: 2px solid red;
+  margin-bottom: 10%;
+  border-radius: 25px;
+}
