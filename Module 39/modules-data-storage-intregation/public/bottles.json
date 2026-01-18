@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "name": "AquaPure Sports Bottle",
+    "brand": "AquaPure",
+    "material": "Stainless Steel",
+    "capacity_ml": 750,
+    "color": "Matte Black",
+    "price_usd": 18.99,
+    "in_stock": true,
+    "rating": 4.6,
+    "features": ["Insulated", "Leak-proof", "BPA-free"]
+  },
+  {
+    "id": 2,
+    "name": "EcoSip Glass Bottle",
+    "brand": "EcoSip",
+    "material": "Glass",
+    "capacity_ml": 500,
+    "color": "Clear",
+    "price_usd": 12.49,
+    "in_stock": false,
+    "rating": 4.2,
+    "features": ["Eco-friendly", "Silicone sleeve", "BPA-free"]
+  },
+  {
+    "id": 3,
+    "name": "HydroFlex Gym Bottle",
+    "brand": "HydroFlex",
+    "material": "Plastic",
+    "capacity_ml": 1000,
+    "color": "Blue",
+    "price_usd": 9.99,
+    "in_stock": true,
+    "rating": 4.0,
+    "features": ["Lightweight", "Flip cap", "Measurement marks"]
+  },
+  {
+    "id": 4,
+    "name": "ThermoPro Travel Flask",
+    "brand": "ThermoPro",
+    "material": "Stainless Steel",
+    "capacity_ml": 600,
+    "color": "Silver",
+    "price_usd": 22.99,
+    "in_stock": true,
+    "rating": 4.8,
+    "features": ["Hot & Cold retention", "Anti-slip base", "Leak-proof"]
+  },
+  {
+    "id": 5,
+    "name": "KidsFun Cartoon Bottle",
+    "brand": "KidsFun",
+    "material": "Plastic",
+    "capacity_ml": 350,
+    "color": "Pink",
+    "price_usd": 7.49,
+    "in_stock": true,
+    "rating": 4.3,
+    "features": ["Straw lid", "Spill-resistant", "Lightweight"]
+  }
+]
