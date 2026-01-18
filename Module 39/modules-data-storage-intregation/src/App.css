@@ -51,5 +51,10 @@
   margin-top: 10px;
   padding: 2em;
   border-radius: 10px;
-  text-align: center;
+  text-align: left;
+}
+
+.bottle img {
+  height: 150px;
+  width: 150px;  
 }

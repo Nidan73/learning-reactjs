@@ -1,12 +1,15 @@
 import React from 'react';
 
-const Bottle = ({bottle}) => {
-    console.log(bottle)
+const Bottle = ({bottle ,handleCart}) => {
+    const { img, name, price, stock } = bottle;
+    // console.log(bottle)
      return (
         <div className='bottle'>
-            {
-             <p>Name : {bottle.name}</p>
-            }
+              <img src={img} alt="" />
+              <p>Name : {name}</p>
+              <p>price : {price}</p><p>Remaining : {stock}</p>
+              <button onClick={handleCart}>Buy Now</button>
+            
         </div>
     );
 };
