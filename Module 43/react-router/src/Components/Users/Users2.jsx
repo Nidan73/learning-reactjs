@@ -4,7 +4,7 @@ const Users2 = ({userPromise}) => {
     const usersData = use(userPromise);
     return (
         <div>
-            <h1>This is users two</h1>
+            <h1>This is users two {usersData.id}</h1>
         </div>
     );
 };
