@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import Link from './Link';
 import { Menu ,ListChevronsUpDown } from 'lucide-react';
+import { Line, LineChart } from 'recharts';
 
 const navData = [
   {

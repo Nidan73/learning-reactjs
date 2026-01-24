@@ -1,6 +1,7 @@
 import './App.css'
 import DaisyNav from './components/DaisyNav/DaisyNav'
 import Nav from './components/Navbar/Nav'
+import ResultChart from './components/ResultChart/ResultChart'
 
 function App() {
 
@@ -8,6 +9,7 @@ function App() {
     <> 
        {/* <DaisyNav></DaisyNav> */}
        <Nav></Nav>
+       <ResultChart></ResultChart>
     </>
   )
 }
