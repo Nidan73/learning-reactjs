@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "name": "Rahim Ahmed",
+    "marks": {
+      "science": 78,
+      "physics": 72,
+      "math": 85
+    }
+  },
+  {
+    "id": 2,
+    "name": "Karim Hossain",
+    "marks": {
+      "science": 85,
+      "physics": 80,
+      "math": 90
+    }
+  },
+  {
+    "id": 3,
+    "name": "Nusrat Jahan",
+    "marks": {
+      "science": 92,
+      "physics": 88,
+      "math": 95
+    }
+  },
+  {
+    "id": 4,
+    "name": "Tanvir Hasan",
+    "marks": {
+      "science": 67,
+      "physics": 60,
+      "math": 70
+    }
+  },
+  {
+    "id": 5,
+    "name": "Farhana Akter",
+    "marks": {
+      "science": 74,
+      "physics": 69,
+      "math": 76
+    }
+  },
+  {
+    "id": 6,
+    "name": "Sakib Rahman",
+    "marks": {
+      "science": 88,
+      "physics": 84,
+      "math": 91
+    }
+  },
+  {
+    "id": 7,
+    "name": "Mahmudul Islam",
+    "marks": {
+      "science": 59,
+      "physics": 55,
+      "math": 63
+    }
+  },
+  {
+    "id": 8,
+    "name": "Ayesha Siddika",
+    "marks": {
+      "science": 81,
+      "physics": 78,
+      "math": 86
+    }
+  },
+  {
+    "id": 9,
+    "name": "Rifat Khan",
+    "marks": {
+      "science": 90,
+      "physics": 89,
+      "math": 94
+    }
+  },
+  {
+    "id": 10,
+    "name": "Shamima Sultana",
+    "marks": {
+      "science": 69,
+      "physics": 65,
+      "math": 72
+    }
+  }
+]
