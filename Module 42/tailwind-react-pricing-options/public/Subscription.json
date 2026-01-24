@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "planName": "Basic",
+    "price": 25,
+    "currency": "USD",
+    "billing": "monthly",
+    "description": "Best for beginners and casual workouts",
+    "features": [
+      "Access to gym equipment",
+      "Cardio machines",
+      "Locker room access",
+      "Open gym hours"
+    ],
+    "popular": false
+  },
+  {
+    "id": 2,
+    "planName": "Standard",
+    "price": 45,
+    "currency": "USD",
+    "billing": "monthly",
+    "description": "Most popular plan for regular members",
+    "features": [
+      "All Basic features",
+      "Unlimited group classes",
+      "Free fitness assessment",
+      "Extended gym hours",
+      "Access to sauna"
+    ],
+    "popular": true
+  },
+  {
+    "id": 3,
+    "planName": "Premium",
+    "price": 70,
+    "currency": "USD",
+    "billing": "monthly",
+    "description": "For advanced training and maximum benefits",
+    "features": [
+      "All Standard features",
+      "Personal trainer (2 sessions/month)",
+      "Nutrition guidance",
+      "24/7 gym access",
+      "Priority class booking",
+      "Towel service"
+    ],
+    "popular": false
+  }
+]

@@ -39,7 +39,7 @@ const link = navData.map(route => <Link key={route.id} route ={route}></Link>)
 const Nav = () => {
     const [toggle ,setToggle] = useState(true)
     return (
-       <nav className='flex justify-between max-w-300 mx-auto'>
+       <nav className='flex justify-between mx-2 mt-2 md:max-w-300 md:mx-auto'>
            <div onClick={()=>setToggle(!toggle)} className='flex'>
             {
                 toggle ? <Menu className='md:hidden'></Menu> : 
