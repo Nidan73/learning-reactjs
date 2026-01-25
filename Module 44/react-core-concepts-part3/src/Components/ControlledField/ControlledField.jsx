@@ -17,10 +17,16 @@ const ControlledField = () => {
     return (
         <div>
             <form onSubmit={handleSubmit}>
-               <input type="email" placeholder='type your email' name="email" id="" required />
+               <input type="email" placeholder='type your email'
+                name="email" id="" required />
+
                <br/>
-               <input placeholder='type your pass' onChange={HandleChange} defaultValue={password} type="password" name="password" id="" required />
+
+               <input placeholder='type your pass' 
+               onChange={HandleChange} defaultValue={password} 
+               type="password" name="password" id="" required />
                <br/>
+
                <input type="submit" value="submit" />  
             </form>
             <p><small style={{color : 'red'}}>{error}</small></p>
@@ -29,3 +35,4 @@ const ControlledField = () => {
 };
 
 export default ControlledField;
+

@@ -2,6 +2,7 @@ import './App.css'
 import ActionForm from './Components/ActionForm/ActionForm'
 import ControlledField from './Components/ControlledField/ControlledField'
 import Form from './Components/Forms/Form'
+import HookForm from './Components/HookForm/HookForm'
 import UncontrolledForm from './Components/Uncontrolled/UncontrolledForm'
 
 function App() {
@@ -14,7 +15,8 @@ function App() {
         {/* <Form></Form> */}
         {/* <ActionForm></ActionForm> */}
         {/* <ControlledField></ControlledField> */}
-        <UncontrolledForm></UncontrolledForm>
+        {/* <UncontrolledForm></UncontrolledForm> */}
+        <HookForm></HookForm>
        </div>
     </>
   )
