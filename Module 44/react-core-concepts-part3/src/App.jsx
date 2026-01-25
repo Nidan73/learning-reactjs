@@ -1,4 +1,5 @@
 import './App.css'
+import Form from './Components/Forms/Form'
 
 function App() {
 
@@ -7,6 +8,7 @@ function App() {
     <>
       <div>
         <h1>React core concepts Part 3</h1>
+        <Form></Form>
        </div>
     </>
   )
