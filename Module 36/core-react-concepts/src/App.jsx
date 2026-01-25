@@ -15,7 +15,7 @@ function App() {
       <ToDo tech ="css" isDone = {true}></ToDo>
       <ToDo tech ="html" isDone = {false}></ToDo> */}
       {
-        singers.map(singer => <Singer singer={singer}></Singer>)
+        singers.map(singer => <Singer singer= {singer} ></Singer>)
       }
     </>
   )

@@ -6,14 +6,17 @@ const Bottles = ({fetchBottles}) => {
      
     const [cart , setCart] = useState([])
      
-    const handleCart = () => {
-        console.log("clicked succesfully")
+    const handleCart = (bottle) => {
+        console.log("clicked succesfully",bottle)
+        const newCart = [...cart ,bottle]
+        setCart(newCart);
     }
 
     return (
         
         <div >
               <h3> Total Bottles : {bottle.length}</h3>
+               <h3>Added to Cart : {cart.length}</h3>
            <div className='bottle-container'>
          {  bottle.map( bottle => <Bottle key={bottle.id} 
          
