@@ -48,7 +48,7 @@ const Register = () => {
             <div>
               <a className="link link-hover">forgot password</a>
             </div>
-            <button className="btn btn-neutral mt-4">Login</button>
+            <button className="btn btn-neutral mt-4">Register</button>
           </form>
           <p>
             New to our Website ?{" "}
